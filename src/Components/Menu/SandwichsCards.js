@@ -9,7 +9,7 @@ import './styles.css';
 
 const styles = {
   card: {
-    maxWidth: 400,
+    maxWidth: 350,
   },
   media: {
     height: 0,
@@ -35,8 +35,9 @@ class SandwichsCards extends Component {
                                 Barrio Franklin
                               </Typography>
                               <Typography component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
+                                    Exquisito pan ciabatta pincealdo con mantequilla saboriza
+                                    de ajo acompañado con carne de punta de ganso marinada al merlot con
+                                    especias, pimentón juliana, rúcula y delicioso queseo chanco gratinado
                               </Typography>
                             </CardContent>
                         </Card>
@@ -45,7 +46,7 @@ class SandwichsCards extends Component {
                         <Card className={classes.card}>
                             <CardMedia
                               className={classes.media}
-                              image="/static/images/cards/contemplative-reptile.jpg"
+                              image="provi.jpg"
                               title="Provi"
                             />
                             <CardContent>
@@ -59,14 +60,12 @@ class SandwichsCards extends Component {
                             </CardContent>
                         </Card>
                     </td>
-                </tr>
-                <br />
-                <tr>
+
                     <td>
                         <Card className={classes.card}>
                             <CardMedia
                               className={classes.media}
-                              image="./vegacentral.jpg"
+                              image="./vega.jpg"
                               title="Vega Central (Vegetariano)"
                             />
                             <CardContent>
@@ -74,8 +73,9 @@ class SandwichsCards extends Component {
                                 Vega Central
                               </Typography>
                               <Typography component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
+                                Delicioso pan ciabatta pincelado con mantequilla saborizada
+                                acompañado de championes horneados, zuccini, pimento rojo,
+                                rodajas de tomate, rucula y queseo chancho gratinado.
                               </Typography>
                             </CardContent>
                         </Card>
@@ -84,7 +84,7 @@ class SandwichsCards extends Component {
                         <Card className={classes.card}>
                             <CardMedia
                               className={classes.media}
-                              image="/static/images/cards/contemplative-reptile.jpg"
+                              image="pac.jpg"
                               title="Pedro Aguirres Cerda"
                             />
                             <CardContent>
@@ -92,8 +92,10 @@ class SandwichsCards extends Component {
                                 Pedro Aguirres Cerda
                               </Typography>
                               <Typography component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
+                                Sabroso pan ciabatta pincelado con mantequilla saborizada de ajo
+                                acompañado con carne de lomo de cerdo marinada con malta y espcias,
+                                champiñón horneado, zuccini salteado, rodajas de tomate pera y
+                                delicioso queso chancho gratinado.
                               </Typography>
                             </CardContent>
                         </Card>

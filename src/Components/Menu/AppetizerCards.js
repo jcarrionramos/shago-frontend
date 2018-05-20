@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = {
   card: {
-    maxWidth: 400,
+    maxWidth: 350,
   },
   media: {
     height: 0,
@@ -20,7 +20,7 @@ class AppetizerCards extends Component {
     render(){
         const { classes } = this.props;
         return(
-            <table className="SandwichsCards">
+            <table className="AppetizerCards">
                 <tr>
                     <td>
                         <Card className={classes.card}>
@@ -58,9 +58,7 @@ class AppetizerCards extends Component {
                             </CardContent>
                         </Card>
                     </td>
-                </tr>
-                <br />
-                <tr>
+
                     <td>
                         <Card className={classes.card}>
                             <CardMedia

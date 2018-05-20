@@ -26,24 +26,26 @@ class Menu extends Component {
     render(){
         const { classes } = this.props;
         return(
-            <div className='menu'>
+            <div className='wrap'>
                 <h1 className='huno'> Carta </h1>
-                <Paper className={classes.root}>
-                    <Tabs
-                      value={this.state.value}
-                      onChange={this.handleChange}
-                      indicatorColor="secondary"
-                      textColor="secondary"
-                      centered
-                    >
-                      <Tab label="Sándwichs" />
-                      <Tab label="Appetizer" />
-                      <Tab label="Bebestibles" />
-                    </Tabs>
-                </Paper>
+                <div className='menu' style={{ backgroundImage: 'url(team2.png)' }}>
+                    <Paper className={classes.root}>
+                        <Tabs
+                          value={this.state.value}
+                          onChange={this.handleChange}
+                          indicatorColor="primary"
+                          textColor="secondary"
+                          centered
+                        >
+                          <Tab label="Sándwichs" />
+                          <Tab label="Appetizer" />
+                          <Tab label="Bebestibles" />
+                        </Tabs>
+                    </Paper>
+                    {this.state.value === 0 && <SandwichsCards/>}
+                    {this.state.value === 1 && <AppetizerCards/>}
+                </div>
                 <br/>
-                {this.state.value === 0 && <SandwichsCards/>}
-                {this.state.value === 1 && <AppetizerCards/>}
             </div>
         );
     }

@@ -3,7 +3,6 @@ import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import './styles.css';
 
-
 class Header extends Component {
     render(){
         return(

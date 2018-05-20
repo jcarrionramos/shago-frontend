@@ -1,6 +1,14 @@
+.menu{
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .huno{
     font-style: oblique;
-    color: #f50057;
+    color: #181C1F;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     position: relative;
     margin-left: 47%;
@@ -8,5 +16,10 @@
 
 .SandwichsCards{
     position: relative;
-    margin-left: 18%;
+}
+
+.AppetizerCards{
+    position: relative;
+    top: 20%;
+    left: 8%;
 }
