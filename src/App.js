@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Components/Header/';
 import Banner from './Components/Banner/';
-
+import Menu from './Components/Menu/';
 
 class App extends Component {
     render(){
@@ -9,7 +9,7 @@ class App extends Component {
             <div>
                 <Header/>
                 <Banner/>
-                <h1> Hello World! </h1>
+                <Menu />
             </div>
         );
     }
