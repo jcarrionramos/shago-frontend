@@ -5,6 +5,8 @@ import Menu from './Components/Menu/';
 import Us from './Components/Us/';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
+import './styles.css';
+
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -26,11 +28,15 @@ class App extends Component {
     render(){
         return(
             <MuiThemeProvider theme={theme}>
-                <div>
+                <div className="scrolling-box">
                     <Header/>
                     <Banner/>
-                    <Menu />
-                    <Us />
+                    <section id="Menu">
+                        <Menu />
+                    </section>
+                    <section id="Us">
+                        <Us />
+                    </section>
                 </div>
             </MuiThemeProvider>
         );

@@ -7,17 +7,17 @@ class Header extends Component {
     render(){
         return(
             <div className="header">
-                <img className="logo" src="logo1.png" height="100px" />
+                <img className="logo" alt="logo" src="logo1.png" height="100px" />
                 <div className="buttons">
-                    <Button className="button" color="secondary">
+                    <Button href="#" className="button" color="secondary">
                         Inicio
                         <Icon>home</Icon>
                     </Button>
-                    <Button className="button" color="secondary">
+                    <Button href="#Menu" className="button" color="secondary">
                         Carta
                         <Icon>fastfood</Icon>
                     </Button>
-                    <Button className="button" color="secondary">
+                    <Button href="#Us" className="button" color="secondary">
                         Nosotros
                         <Icon>child_care</Icon>
                     </Button>

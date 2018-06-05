@@ -7,19 +7,19 @@
 }
 
 .huno{
+    padding-top: 120px;
     font-style: oblique;
     color: #181C1F;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    position: relative;
-    margin-left: 47%;
+    text-align: center;
 }
 
 .SandwichsCards{
-    position: relative;
+    padding-left: 15px;
+    padding-top: 40px;
 }
 
 .AppetizerCards{
-    position: relative;
-    top: 20%;
-    left: 8%;
+    padding-left: 90px;
+    padding-top: 40px;
 }

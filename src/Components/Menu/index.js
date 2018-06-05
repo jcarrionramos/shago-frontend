@@ -6,12 +6,13 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import SandwichsCards from'./SandwichsCards.js';
 import AppetizerCards from'./AppetizerCards.js';
+import DrinksCards from './DrinksCards.js'
 import './styles.css';
 
 const styles = {
-  root: {
-    flexGrow: 1,
-  }
+    root: {
+        flexGrow: 1,
+    }
 };
 
 class Menu extends Component {
@@ -37,13 +38,14 @@ class Menu extends Component {
                           textColor="secondary"
                           centered
                         >
-                          <Tab label="Sándwichs" />
-                          <Tab label="Appetizer" />
-                          <Tab label="Bebestibles" />
+                            <Tab label="Sándwichs" />
+                            <Tab label="Appetizer" />
+                            <Tab label="Bebestibles" />
                         </Tabs>
                     </Paper>
-                    {this.state.value === 0 && <SandwichsCards/>}
-                    {this.state.value === 1 && <AppetizerCards/>}
+                    {this.state.value === 0 && <SandwichsCards />}
+                    {this.state.value === 1 && <AppetizerCards />}
+                    {this.state.value === 2 && <DrinksCards />}
                 </div>
                 <br/>
             </div>

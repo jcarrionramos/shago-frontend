@@ -1,15 +1,18 @@
 .header{
+    position: sticky;
+    top: 0;
     background-color: #FAC832;
     height: 100px !important;
-
+    max-height: 100px !important;
 }
 
 .logo{
-    margin-left: 100px;
+    position: relative;
+    left: 15%;
 }
 
 .buttons{
-    position:absolute;
-    top: 5.5%;
-    left: 55%;
+    position: fixed;
+    top: 5%;
+    left: 50%;
 }

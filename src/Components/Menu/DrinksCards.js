@@ -1,42 +1,30 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 const styles = {
-  card: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
-  }
+    card: {
+        width: 300,
+        height: 390,
+    },
+    media: {
+        height: 0,
+        paddingTop: '65%',
+    },
+    paper: {
+        textAlign: 'center'
+    }
 };
 
 class SandwichsCards extends Component {
     render(){
         const { classes } = this.props;
         return(
-            <Card className={classes.card}>
-                <CardMedia
-                  className={classes.media}
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  title="Barrio Franklin"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="headline" component="h2">
-                    Barrio Franklin
-                  </Typography>
-                  <Typography component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
-                  </Typography>
-                </CardContent>
-            </Card>
+            <div className={classes.root}>
+
+            </div>
         );
     }
 }
