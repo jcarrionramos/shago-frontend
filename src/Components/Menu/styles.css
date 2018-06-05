@@ -1,5 +1,5 @@
 .menu{
-    height: 700px;
+    height: 550px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7,19 +7,20 @@
 }
 
 .huno{
-    padding-top: 120px;
+    padding-top: 100px;
     font-style: oblique;
     color: #181C1F;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     text-align: center;
+    font-size: 35px;
 }
 
 .SandwichsCards{
-    padding-left: 15px;
-    padding-top: 40px;
+    padding-left: 20px;
+    padding-top: 5%;
 }
 
 .AppetizerCards{
     padding-left: 90px;
-    padding-top: 40px;
+    padding-top: 5%;
 }

@@ -11,7 +11,7 @@ import './styles.css';
 
 const styles = {
     root: {
-        flexGrow: 1,
+        flexGrow: 2,
     }
 };
 
@@ -29,7 +29,7 @@ class Menu extends Component {
         return(
             <div className='wrap'>
                 <h1 className='huno'> Carta </h1>
-                <div className='menu' style={{ backgroundImage: 'url(team2.png)' }}>
+                <div className='menu' style={{ backgroundImage: 'url(team2.png)'}}>
                     <Paper className={classes.root}>
                         <Tabs
                           value={this.state.value}
