@@ -1,4 +1,4 @@
-.scroll-container {
+.scroll-box {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }

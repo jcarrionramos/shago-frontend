@@ -12,7 +12,7 @@ import './styles.css'
 const styles = {
     card: {
         width: 300,
-        height: 400,
+        height: 300,
     },
     media: {
         height: 0,
@@ -25,8 +25,8 @@ class AppetizerCards extends Component {
         const { classes } = this.props;
         return(
             <div className="AppetizerCards">
-              <Grid container>
-                <Grid item xs={4} >
+              <Grid container justify="center" spacing={40} >
+                <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -34,18 +34,20 @@ class AppetizerCards extends Component {
                           title="Alitas de Pollo"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2">
-                            Alitas de Pollo
+                          <Typography gutterBottom variant="title" component="h2" align="center">
+                            Filetitos de Pollo
                           </Typography>
-                          <Typography component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 4,000 species, ranging
-                            across all continents except Antarctica
+                          <Typography component="p" align="justify">
+                            acompañado de salsa pébre.
+                          </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $2.500
                           </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
 
-                <Grid item xs={4} >
+                <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -53,18 +55,20 @@ class AppetizerCards extends Component {
                           title="Papas Rusticas"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2">
-                            Papas Rusticas
+                          <Typography gutterBottom variant="title" component="h2" align="center">
+                            Papas Ruisticas
                           </Typography>
-                          <Typography component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
+                          <Typography component="p" align="justify">
+                            Acompañado de salsa pébre.
+                          </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $2.500
                           </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
 
-                <Grid item xs={4} >
+                <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -72,12 +76,14 @@ class AppetizerCards extends Component {
                           title="Mozzarella Sticks"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2">
-                            Mozzarella Sticks
+                          <Typography gutterBottom variant="title" component="h2" align="center">
+                            Bastones de Mozzarella
                           </Typography>
-                          <Typography component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
+                          <Typography component="p" align="justify">
+                            Acompañado de salsa pébre.
+                          </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $2.500
                           </Typography>
                         </CardContent>
                     </Card>

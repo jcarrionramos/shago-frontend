@@ -29,7 +29,7 @@ class Menu extends Component {
         return(
             <div className='wrap'>
                 <h1 className='huno'> Carta </h1>
-                <div className='menu' style={{ backgroundImage: 'url(team2.png)'}}>
+                <div className='menu'>
                     <Paper className={classes.root}>
                         <Tabs
                           value={this.state.value}

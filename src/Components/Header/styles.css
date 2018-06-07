@@ -1,6 +1,7 @@
 .header{
     position: sticky;
     top: 0;
+    z-index: 1000 !important;
     background-color: #FAC832;
     height: 100px !important;
     max-height: 100px !important;
@@ -15,4 +16,9 @@
     position: fixed;
     top: 5%;
     left: 50%;
+}
+
+
+.buttonsResponsive .Buttons{
+
 }

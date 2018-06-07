@@ -28,8 +28,8 @@ class SandwichsCards extends Component {
         const { classes } = this.props;
         return(
             <div className="SandwichsCards">
-              <Grid container>
-                <Grid item xs={3}>
+              <Grid container  justify="center" spacing={16} >
+                <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -37,7 +37,7 @@ class SandwichsCards extends Component {
                           title="Barrio Franklin"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2" align="center">
+                          <Typography gutterBottom variant="title" component="h2" align="center">
                             Barrio Franklin
                           </Typography>
                           <Typography aling="4" component="p" align="justify">
@@ -45,11 +45,14 @@ class SandwichsCards extends Component {
                                 de ajo acompañado con carne de punta de ganso marinada al merlot con
                                 especias, pimentón juliana, rúcula y queseo chanco gratinado
                           </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $5.000
+                          </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
 
-                <Grid item xs={3}>
+                <Grid item >
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -57,7 +60,7 @@ class SandwichsCards extends Component {
                           title="Provi"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2" align="center">
+                          <Typography gutterBottom variant="title" component="h2" align="center">
                             El Provi
                           </Typography>
                           <Typography component="p" align="justify" >
@@ -65,11 +68,14 @@ class SandwichsCards extends Component {
                             con carne de lomo de cerdo marinado con malta y especias, rodaje de tomates
                             y palta.
                           </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $3.500
+                          </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
 
-                <Grid item xs={3}>
+                <Grid item >
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -77,7 +83,7 @@ class SandwichsCards extends Component {
                           title="Vega Central (Vegetariano)"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2" align="center">
+                          <Typography gutterBottom variant="title" component="h2" align="center">
                             Vega Central
                           </Typography>
                           <Typography component="p" align="justify">
@@ -85,11 +91,14 @@ class SandwichsCards extends Component {
                             acompañado de championes horneados, zuccini, pimento rojo,
                             rodajas de tomate, rucula y queseo chancho gratinado.
                           </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $4.500
+                          </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
 
-                <Grid item xs={3}>
+                <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
                           className={classes.media}
@@ -97,13 +106,16 @@ class SandwichsCards extends Component {
                           title="Pedro Aguirre Cerda"
                         />
                         <CardContent>
-                          <Typography gutterBottom variant="headline" component="h2" align="center">
+                          <Typography gutterBottom variant="title" component="h2" align="center">
                             Pedro Aguirre Cerda
                           </Typography>
                           <Typography component="p" align="justify">
                             Pan ciabatta pincelado con mantequilla saborizada de ajo
                             acompañado con carne de lomo de cerdo marinada con malta y especias,
                             champiñón horneado, zuccini salteado, rodajas de tomate pera y queso chancho gratinado.
+                          </Typography>
+                          <Typography gutterBottom variant="subheading" align="right">
+                            $5.000
                           </Typography>
                         </CardContent>
                     </Card>

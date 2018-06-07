@@ -28,7 +28,7 @@ class App extends Component {
     render(){
         return(
             <MuiThemeProvider theme={theme}>
-                <div className="scrolling-box">
+                <scroll-container className="scrolling-box">
                     <Header/>
                     <Banner/>
                     <section id="Menu">
@@ -37,7 +37,7 @@ class App extends Component {
                     <section id="Us">
                         <Us />
                     </section>
-                </div>
+                </scroll-container>
             </MuiThemeProvider>
         );
     }
