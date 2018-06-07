@@ -9,7 +9,7 @@ import './styles.css';
 
 const styles = {
     list: {
-        width: 200,
+        width: 10000,
     }
 };
 
@@ -85,19 +85,17 @@ class Header extends Component {
             <div className="header">
                 <img className="logo" alt="logo" src="logo1.png" height="100px" />
                 <div className="buttons"> {Buttons} </div>
-
-
-                    <SwipeableDrawer
-                      style={{zIndex: 1001}}
-                      anchor="right"
-                      open={this.state.show}
-                      onClose={this.toggleDrawer(false)}
-                      onOpen={this.toggleDrawer(true)}
-                    >
-                        <div className="buttonsResponsive" role="button">
-                            {sideList}
-                        </div>
-                    </SwipeableDrawer>
+                <SwipeableDrawer
+                  style={{zIndex: 1001}}
+                  anchor="right"
+                  open={this.state.show}
+                  onClose={this.toggleDrawer(false)}
+                  onOpen={this.toggleDrawer(true)}
+                >
+                    <div className="buttonsResponsive" role="button">
+                        {sideList}
+                    </div>
+                </SwipeableDrawer>
             </div>
         );
     }

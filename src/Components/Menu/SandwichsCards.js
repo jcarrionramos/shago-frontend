@@ -28,7 +28,7 @@ class SandwichsCards extends Component {
         const { classes } = this.props;
         return(
             <div className="SandwichsCards">
-              <Grid container  justify="center" spacing={16} >
+              <Grid container  justify="center" spacing={8} style={{maxWidth: "100%"}} >
                 <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
@@ -41,9 +41,9 @@ class SandwichsCards extends Component {
                             Barrio Franklin
                           </Typography>
                           <Typography aling="4" component="p" align="justify">
-                                Exquisito pan ciabatta pincealdo con mantequilla saboriza
+                                Exquisito pan ciabatta pincelado con mantequilla saborizada
                                 de ajo acompañado con carne de punta de ganso marinada al merlot con
-                                especias, pimentón juliana, rúcula y queseo chanco gratinado
+                                especias, pimentón juliana, rúcula y queso chanco gratinado
                           </Typography>
                           <Typography gutterBottom variant="subheading" align="right">
                             $5.000

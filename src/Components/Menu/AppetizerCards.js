@@ -12,7 +12,7 @@ import './styles.css'
 const styles = {
     card: {
         width: 300,
-        height: 300,
+        height: 310,
     },
     media: {
         height: 0,
@@ -25,7 +25,7 @@ class AppetizerCards extends Component {
         const { classes } = this.props;
         return(
             <div className="AppetizerCards">
-              <Grid container justify="center" spacing={40} >
+              <Grid container justify="center" spacing={40} style={{maxWidth: "100%"}} >
                 <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
@@ -38,7 +38,7 @@ class AppetizerCards extends Component {
                             Filetitos de Pollo
                           </Typography>
                           <Typography component="p" align="justify">
-                            acompañado de salsa pébre.
+                            Apanados con nuestra receta casera y acompañado de salsa pébre.
                           </Typography>
                           <Typography gutterBottom variant="subheading" align="right">
                             $2.500
@@ -56,7 +56,7 @@ class AppetizerCards extends Component {
                         />
                         <CardContent>
                           <Typography gutterBottom variant="title" component="h2" align="center">
-                            Papas Ruisticas
+                            Papas Rusticas
                           </Typography>
                           <Typography component="p" align="justify">
                             Acompañado de salsa pébre.
