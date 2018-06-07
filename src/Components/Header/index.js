@@ -9,7 +9,7 @@ import './styles.css';
 
 const styles = {
     list: {
-        width: 10000,
+        width: 200,
     }
 };
 
@@ -48,7 +48,7 @@ class Header extends Component {
                     </Button>
                 </Hidden>
                 <Hidden lgUp>
-                    <Button style={{left:"100%"}} fullWidth color="secondary" onClick={this.toggleDrawer(true)}>
+                    <Button style={{left:"85%"}} fullWidth color="secondary" onClick={this.toggleDrawer(true)}>
                         <Icon>dehaze</Icon>
                     </Button>
                 </Hidden>
