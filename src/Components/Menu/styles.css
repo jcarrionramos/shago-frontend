@@ -1,17 +1,4 @@
-.menu{
-    background-color: #181C1F;
-    padding-bottom: 2%;
-}
-
-.team2{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 650px;
-}
-
 .huno{
-    padding-top: 100px;
     font-style: oblique;
     color: #181C1F;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -19,12 +6,16 @@
     font-size: 35px;
 }
 
+.menu{
+    width: 100%;
+    background-color: #181C1F;
+    padding-bottom: 2%;
+}
+
 .SandwichsCards{
     padding-top: 2%;
-    left:10px;
 }
 
 .AppetizerCards{
     padding-top: 2%;
-    left:10px;
 }

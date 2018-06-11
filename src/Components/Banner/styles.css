@@ -1,3 +1,6 @@
 .bg-banner{
-    height: 400px;
+    width: 100%;
+    max-height: 500px;
+    min-height: 350px;
+    height: auto;
 }

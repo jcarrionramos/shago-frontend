@@ -25,7 +25,7 @@ class AppetizerCards extends Component {
         const { classes } = this.props;
         return(
             <div className="AppetizerCards">
-              <Grid container justify="center" spacing={40} style={{maxWidth: "100%"}} >
+              <Grid container justify="center" spacing={40}>
                 <Grid item>
                     <Card className={classes.card}>
                         <CardMedia
