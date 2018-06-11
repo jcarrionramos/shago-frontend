@@ -48,7 +48,7 @@ class Header extends Component {
                     </Button>
                 </Hidden>
                 <Hidden lgUp>
-                    <Button style={{left:"85%", position:"relative", bottom:"7px"}} fullWidth color="secondary" onClick={this.toggleDrawer(true)}>
+                    <Button style={{marginLeft:"80%", position:"sticky"}} fullWidth color="secondary" onClick={this.toggleDrawer(true)}>
                         <Icon>dehaze</Icon>
                     </Button>
                 </Hidden>

@@ -1,5 +1,6 @@
 .header{
     position: sticky;
+    width: 100%;
     top: 0;
     z-index: 1000 !important;
     background-color: #FAC832;
@@ -7,11 +8,11 @@
 
 .logo{
     position: relative;
-    left: 15%;
+    left: 10%;
 }
 
 .buttons{
     position: fixed;
     top: 5%;
-    left: 50%;
+    left: 55%;
 }
